@@ -1,4 +1,4 @@
-# backtracking
+# N과 M (2)
 N, M = map(int, input().split())
 ans = []
 def dfs(n):
