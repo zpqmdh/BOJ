@@ -1,4 +1,4 @@
-# BFS
+# 토마토
 import sys
 from collections import deque
 dy = [1, -1, 0, 0]
@@ -34,7 +34,7 @@ bfs()
 res = 0
 for i in range(N):
     for j in range(M):
-        if box[i][j] == 0: # 익지 않은 토마토 존재
+        if box[i][j] == 0:
             print(-1)
             exit(0)
         res = max(res, box[i][j])
