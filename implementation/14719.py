@@ -12,6 +12,6 @@ for i in range(1, W-1):
         if A[j] < min_value:
             answer += min_value - A[j]
             A[j] = min_value
-    if max_height[1] < A[i]:
+    if max_height[1] <= A[i]:
         max_height = [i, A[i]]
 print(answer)
